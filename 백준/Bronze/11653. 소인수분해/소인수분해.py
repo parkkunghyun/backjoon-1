@@ -1,10 +1,9 @@
-import math
+N = int(input())  # 나누어지는 수
+d = 2  # 나누는 수
 
-s= int(input())
-m = 2
-while s != 1:
-    if s % m == 0:
-        s = s/m
-        print(m)
+while N != 1:
+    if N % d != 0:
+        d += 1
     else:
-        m += 1
+        N //= d
+        print(d)
