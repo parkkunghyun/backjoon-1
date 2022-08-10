@@ -1,8 +1,7 @@
-croatia = ['c=', 'c-', 'dz=', 'd-', 'lj', 'nj', 's=', 'z=']
+l = ['c=','c-', 'dz=','d-','lj','nj' ,'s=','z=']
 
-word = input()
-
-for i in croatia:
-    word = word.replace(i, '*')
-    
-print(len(word))
+count =0
+s = input()
+for i in l:
+    s = s.replace(i,'*')
+print(len(s))
