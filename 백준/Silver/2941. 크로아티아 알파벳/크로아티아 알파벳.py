@@ -1,7 +1,6 @@
-l = ['c=','c-', 'dz=','d-','lj','nj' ,'s=','z=']
+croatia = ['c=', 'c-', 'dz=', 'd-', 'lj', 'nj', 's=', 'z=']
+word = input()
 
-count =0
-s = input()
-for i in l:
-    s = s.replace(i,'*')
-print(len(s))
+for i in croatia :
+    word = word.replace(i, '*')  # input 변수와 동일한 이름의 변수
+print(len(word))
